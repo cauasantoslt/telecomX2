@@ -1,62 +1,67 @@
+<p align="right">
+    <a href="readme/readme-en.md">🇬🇧 English</a> |
+    <a href="readme/readme-es.md">🇪🇸 Español</a>
+</p>
+
 <p align="center">
-    <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="center" width="30%">
+    <img src="https://placehold.co/150x150/2d0553/00ffff?text=TelecomX" align="center" width="30%">
 </p>
 <p align="center"><h1 align="center">TELECOMX2</h1></p>
 <p align="center">
-	<em>Unleash insights, power innovation, predict success!</em>
+    <em>Libere insights, impulsione inovação, preveja sucesso!</em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/cauasantoslt/telecomX2?style=default&logo=opensourceinitiative&logoColor=white&color=00fff2" alt="license">
-	<img src="https://img.shields.io/github/last-commit/cauasantoslt/telecomX2?style=default&logo=git&logoColor=white&color=00fff2" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/cauasantoslt/telecomX2?style=default&color=00fff2" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/cauasantoslt/telecomX2?style=default&color=00fff2" alt="repo-language-count">
+    <a href="https://linkedin.com/in/cauasantoslt" target=_blank><img src="https://img.shields.io/badge/Meu%20Perfil-LinkedIn-00fff2?style=default&logo=linkedin&logoColor=00fff2"></a>
+    <img src="https://img.shields.io/github/last-commit/cauasantoslt/telecomX2?style=default&logo=git&logoColor=white&color=00fff2" alt="last-commit">
+    <img src="https://img.shields.io/github/languages/top/cauasantoslt/telecomX2?style=default&color=00fff2" alt="repo-top-language">
+    <img src="https://img.shields.io/github/languages/count/cauasantoslt/telecomX2?style=default&color=00fff2" alt="repo-language-count">
 </p>
-<p align="center"><!-- default option, no dependency badges. -->
+<p align="center"><!-- opção padrão, sem badges de dependências. -->
 </p>
 <p align="center">
-	<!-- default option, no dependency badges. -->
+    <!-- opção padrão, sem badges de dependências. -->
 </p>
 <br>
 
-## 🔗 Table of Contents
+## 🔗 Índice
 
-- [📍 Overview](#-overview)
-- [👾 Features](#-features)
-- [📁 Project Structure](#-project-structure)
-  - [📂 Project Index](#-project-index)
-- [🚀 Getting Started](#-getting-started)
-  - [☑️ Prerequisites](#-prerequisites)
-  - [⚙️ Installation](#-installation)
-  - [🤖 Usage](#🤖-usage)
-  - [🧪 Testing](#🧪-testing)
-- [📌 Project Roadmap](#-project-roadmap)
-- [🔰 Contributing](#-contributing)
-- [🎗 License](#-license)
-- [🙌 Acknowledgments](#-acknowledgments)
-
----
-
-## 📍 Overview
-
-TelecomX2 is a cutting-edge project that simplifies data extraction and enhances project structure visualization. It streamlines information retrieval for analysis and offers a user-friendly directory tree tool for easy navigation. Ideal for developers seeking efficient file location and codebase understanding, TelecomX2 optimizes workflow and boosts productivity.
+- [📍 Visão Geral](#-visão-geral)
+- [👾 Funcionalidades](#-funcionalidades)
+- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
+  - [📂 Índice do Projeto](#-índice-do-projeto)
+- [🚀 Primeiros Passos](#-primeiros-passos)
+  - [☑️ Pré-requisitos](#-pré-requisitos)
+  - [⚙️ Instalação](#-instalação)
+  - [🤖 Uso](#-uso)
+  - [🧪 Testes](#-testes)
+- [📌 Roadmap do Projeto](#-roadmap-do-projeto)
+- [🔰 Contribuindo](#-contribuindo)
+- [🎗 Licença](#-licença)
+- [🙌 Agradecimentos](#-agradecimentos)
 
 ---
 
-## 👾 Features
+## 📍 Visão Geral
 
-|      | Feature         | Summary       |
-| :--- | :---:           | :---          |
-| ⚙️  | **Architecture**  | <ul><li>Utilizes a modular architecture design to enhance maintainability and scalability.</li><li>Employs <code>app.py</code> to orchestrate a futuristic-themed predictive churn analysis application using <code>Streamlit</code>.</li><li>Integrates various components to create an engaging and informative user experience within the TelecomX project architecture.</li></ul> |
-| 🔩 | **Code Quality**  | <ul><li>Follows best practices in Python development for readability and maintainability.</li><li>Includes unit tests using <code>pytest</code> to ensure code reliability.</li><li>Utilizes <code>Joblib</code> for model persistence and <code>Imbalanced-learn</code> for handling imbalanced datasets.</li></ul> |
-| 📄 | **Documentation** | <ul><li>Enhances project structure visualization with the <code>readme-en</code> file, aiding developers in understanding the codebase architecture.</li><li>Facilitates dependencies management through the <code>requirements.txt</code> file.</li><li>Translates project documentation into Spanish with the <code>readme-es</code> file.</li></ul> |
-| 🔌 | **Integrations**  | <ul><li>Integrates <code>Streamlit</code>, <code>Pandas</code>, <code>Scikit-learn</code>, <code>Plotly</code>, <code>Joblib</code>, and <code>Imbalanced-learn</code> for seamless functionality.</li><li>Utilizes <code>app.py</code> to load and preprocess data, display system status metrics, and provide real-time churn predictions.</li><li>Integrates <code>salvar_modelo.py</code> to persist pre-processed data, train a Random Forest model, and save model files.</li></ul> |
-| 🧩 | **Modularity**    | <ul><li>Ensures modularity in the architecture design for easy maintenance and future enhancements.</li><li>Separates concerns by utilizing different files for specific functionalities like data extraction, model training, and application orchestration.</li><li>Encourages code reusability and scalability through modular components.</li></ul> |
-| 🧪 | **Testing**       | <ul><li>Includes unit tests using <code>pytest</code> to validate the functionality of different components.</li><li>Ensures code reliability and robustness through comprehensive testing strategies.</li><li>Tests data processing, model training, and application functionality to maintain high code quality.</li></ul> |
-| ⚡️  | **Performance**   | <ul><li>Optimizes performance by utilizing efficient libraries like <code>Pandas</code> and <code>Scikit-learn</code> for data processing and model training.</li><li>Utilizes <code>Joblib</code> for model persistence to enhance prediction speed.</li><li>Ensures real-time churn predictions for new customers with minimal latency.</li></ul> |
+TelecomX2 é um projeto inovador que simplifica a extração de dados e aprimora a visualização da estrutura do projeto. Ele agiliza a obtenção de informações para análise e oferece uma ferramenta amigável de árvore de diretórios para fácil navegação. Ideal para desenvolvedores que buscam localizar arquivos e entender o código de forma eficiente, o TelecomX2 otimiza o fluxo de trabalho e aumenta a produtividade.
 
 ---
 
-## 📁 Project Structure
+## 👾 Funcionalidades
+
+|     |     Funcionalidade      | Resumo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| :-- | :---------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ⚙️  |     **Arquitetura**     | <ul><li>Utiliza arquitetura modular para melhorar a manutenção e escalabilidade.</li><li>Emprega o <code>app.py</code> para orquestrar um aplicativo preditivo de churn com tema futurista usando <code>Streamlit</code>.</li><li>Integra diversos componentes para criar uma experiência envolvente e informativa dentro da arquitetura do projeto TelecomX.</li></ul>                                                                                                                                              |
+| 🔩  | **Qualidade do Código** | <ul><li>Segue boas práticas de desenvolvimento Python para legibilidade e manutenção.</li><li>Inclui testes unitários com <code>pytest</code> para garantir confiabilidade.</li><li>Utiliza <code>Joblib</code> para persistência de modelos e <code>Imbalanced-learn</code> para tratar conjuntos de dados desbalanceados.</li></ul>                                                                                                                                                                                |
+| 📄  |    **Documentação**     | <ul><li>Melhora a visualização da estrutura do projeto com o arquivo <code>readme-en</code>, auxiliando desenvolvedores a entenderem a arquitetura do código.</li><li>Facilita o gerenciamento de dependências via <code>requirements.txt</code>.</li><li>Traduz a documentação do projeto para espanhol com o arquivo <code>readme-es</code>.</li></ul>                                                                                                                                                             |
+| 🔌  |     **Integrações**     | <ul><li>Integra <code>Streamlit</code>, <code>Pandas</code>, <code>Scikit-learn</code>, <code>Plotly</code>, <code>Joblib</code> e <code>Imbalanced-learn</code> para funcionalidade completa.</li><li>Utiliza <code>app.py</code> para carregar e pré-processar dados, exibir métricas de status do sistema e fornecer previsões de churn em tempo real.</li><li>Integra <code>salvar_modelo.py</code> para persistir dados pré-processados, treinar um modelo Random Forest e salvar arquivos de modelo.</li></ul> |
+| 🧩  |    **Modularidade**     | <ul><li>Garante modularidade na arquitetura para fácil manutenção e futuras melhorias.</li><li>Separa responsabilidades utilizando arquivos diferentes para funcionalidades específicas como extração de dados, treinamento de modelo e orquestração da aplicação.</li><li>Estimula reuso e escalabilidade do código por meio de componentes modulares.</li></ul>                                                                                                                                                    |
+| 🧪  |       **Testes**        | <ul><li>Inclui testes unitários com <code>pytest</code> para validar funcionalidades dos componentes.</li><li>Garante confiabilidade e robustez do código com estratégias de testes abrangentes.</li><li>Testa processamento de dados, treinamento de modelo e funcionalidades da aplicação para manter alta qualidade do código.</li></ul>                                                                                                                                                                          |
+| ⚡️ |     **Performance**     | <ul><li>Otimiza performance utilizando bibliotecas eficientes como <code>Pandas</code> e <code>Scikit-learn</code> para processamento de dados e treinamento de modelos.</li><li>Utiliza <code>Joblib</code> para persistência de modelos, acelerando previsões.</li><li>Garante previsões de churn em tempo real para novos clientes com baixa latência.</li></ul>                                                                                                                                                  |
+
+---
+
+## 📁 Estrutura do Projeto
 
 ```sh
 └── telecomX2/
@@ -77,156 +82,155 @@ TelecomX2 is a cutting-edge project that simplifies data extraction and enhances
         └── readme-es
 ```
 
+### 📂 Índice do Projeto
 
-### 📂 Project Index
 <details open>
-	<summary><b><code>TELECOMX2/</code></b></summary>
-	<details> <!-- __root__ Submodule -->
-		<summary><b>__root__</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/cauasantoslt/telecomX2/blob/master/TelecomX_2ipynb'>TelecomX_2ipynb</a></b></td>
-				<td>- The code file TelecomX_2ipynb in the project structure is focused on data extraction<br>- It plays a crucial role in retrieving and processing relevant information for further analysis within the codebase architecture.</td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- readme Submodule -->
-		<summary><b>readme</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/cauasantoslt/telecomX2/blob/master/readme/readm-en'>readm-en</a></b></td>
-				<td>- Enhances project structure visualization by generating a comprehensive directory tree<br>- This tool simplifies navigation and understanding of the codebase architecture, aiding developers in efficiently locating files and directories.</td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/cauasantoslt/telecomX2/blob/master/readme/readme-es'>readme-es</a></b></td>
-				<td>Improve project documentation by translating the README file into Spanish.</td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- app Submodule -->
-		<summary><b>app</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/cauasantoslt/telecomX2/blob/master/app/app.py'>app.py</a></b></td>
-				<td>- The code file `app.py` orchestrates a futuristic-themed predictive churn analysis application using Streamlit<br>- It loads and preprocesses data, displays system status metrics, analyzes critical variables' impact on churn, provides interactive visualizations, and offers real-time churn predictions for new customers<br>- The file integrates various components to create an engaging and informative user experience within the TelecomX project architecture.</td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/cauasantoslt/telecomX2/blob/master/app/requirements.txt'>requirements.txt</a></b></td>
-				<td>- Facilitates project dependencies management by specifying required libraries for the application<br>- The file ensures seamless integration of essential tools like Streamlit, Pandas, Scikit-learn, Plotly, Joblib, and Imbalanced-learn.</td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/cauasantoslt/telecomX2/blob/master/app/salvar_modelo.py'>salvar_modelo.py</a></b></td>
-				<td>- Persist pre-processed data, train a Random Forest model, and save model files<br>- The code balances data, standardizes numeric variables, and handles missing values<br>- It loads data, encodes categorical features, splits data, and fits the model<br>- Finally, it saves the trained model, scaler, and feature columns for future use.</td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
+    <summary><b><code>TELECOMX2/</code></b></summary>
+    <details> <!-- __root__ Submodule -->
+        <summary><b>__root__</b></summary>
+        <blockquote>
+            <table>
+            <tr>
+                <td><b><a href='https://github.com/cauasantoslt/telecomX2/blob/master/TelecomX_2ipynb'>TelecomX_2ipynb</a></b></td>
+                <td>- O arquivo de código TelecomX_2ipynb na estrutura do projeto é focado na extração de dados<br>- Ele desempenha papel crucial na obtenção e processamento de informações relevantes para análise dentro da arquitetura do código.</td>
+            </tr>
+            </table>
+        </blockquote>
+    </details>
+    <details> <!-- readme Submodule -->
+        <summary><b>readme</b></summary>
+        <blockquote>
+            <table>
+            <tr>
+                <td><b><a href='https://github.com/cauasantoslt/telecomX2/blob/master/readme/readm-en'>readm-en</a></b></td>
+                <td>Melhora a documentação do projeto traduzindo o arquivo README para Inglês.</td>
+            </tr>
+            <tr>
+                <td><b><a href='https://github.com/cauasantoslt/telecomX2/blob/master/readme/readme-es'>readme-es</a></b></td>
+                <td>Melhora a documentação do projeto traduzindo o arquivo README para espanhol.</td>
+            </tr>
+            </table>
+        </blockquote>
+    </details>
+    <details> <!-- app Submodule -->
+        <summary><b>app</b></summary>
+        <blockquote>
+            <table>
+            <tr>
+                <td><b><a href='https://github.com/cauasantoslt/telecomX2/blob/master/app/app.py'>app.py</a></b></td>
+                <td>- O arquivo <code>app.py</code> orquestra um aplicativo preditivo de churn com tema futurista usando Streamlit<br>- Ele carrega e pré-processa dados, exibe métricas de status do sistema, analisa o impacto de variáveis críticas no churn, fornece visualizações interativas e oferece previsões de churn em tempo real para novos clientes<br>- O arquivo integra diversos componentes para criar uma experiência envolvente e informativa dentro da arquitetura do projeto TelecomX.</td>
+            </tr>
+            <tr>
+                <td><b><a href='https://github.com/cauasantoslt/telecomX2/blob/master/app/requirements.txt'>requirements.txt</a></b></td>
+                <td>- Facilita o gerenciamento de dependências do projeto especificando as bibliotecas necessárias para a aplicação<br>- O arquivo garante integração perfeita de ferramentas essenciais como Streamlit, Pandas, Scikit-learn, Plotly, Joblib e Imbalanced-learn.</td>
+            </tr>
+            <tr>
+                <td><b><a href='https://github.com/cauasantoslt/telecomX2/blob/master/app/salvar_modelo.py'>salvar_modelo.py</a></b></td>
+                <td>- Persiste dados pré-processados, treina um modelo Random Forest e salva arquivos de modelo<br>- O código balanceia dados, padroniza variáveis numéricas e trata valores ausentes<br>- Ele carrega dados, codifica variáveis categóricas, divide dados e ajusta o modelo<br>- Por fim, salva o modelo treinado, scaler e colunas de features para uso futuro.</td>
+            </tr>
+            </table>
+        </blockquote>
+    </details>
 </details>
 
 ---
-## 🚀 Getting Started
 
-### ☑️ Prerequisites
+## 🚀 Primeiros Passos
 
-Before getting started with telecomX2, ensure your runtime environment meets the following requirements:
+### ☑️ Pré-requisitos
 
-- **Programming Language:** Python
-- **Package Manager:** Pip
+Antes de começar com o telecomX2, certifique-se de que seu ambiente de execução atende aos seguintes requisitos:
 
+- **Linguagem de Programação:** Python
+- **Gerenciador de Pacotes:** Pip
 
-### ⚙️ Installation
+### ⚙️ Instalação
 
-Install telecomX2 using one of the following methods:
+Instale o telecomX2 usando um dos métodos abaixo:
 
-**Build from source:**
+**Construir a partir do código-fonte:**
 
-1. Clone the telecomX2 repository:
+1. Clone o repositório telecomX2:
+
 ```sh
 ❯ git clone https://github.com/cauasantoslt/telecomX2
 ```
 
-2. Navigate to the project directory:
+2. Navegue até o diretório do projeto:
+
 ```sh
 ❯ cd telecomX2
 ```
 
-3. Install the project dependencies:
+3. Instale as dependências do projeto:
 
-
-**Using `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
+**Usando `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
 
 ```sh
 ❯ pip install -r app/requirements.txt
 ```
 
+### 🤖 Uso
 
-
-
-### 🤖 Usage
-Run telecomX2 using the following command:
-**Using `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
+Execute o telecomX2 usando o comando abaixo:
+**Usando `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
 
 ```sh
 ❯ python {entrypoint}
 ```
 
+### 🧪 Testes
 
-### 🧪 Testing
-Run the test suite using the following command:
-**Using `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
+Execute a suíte de testes com o comando abaixo:
+**Usando `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
 
 ```sh
 ❯ pytest
 ```
 
-
----
-## 📌 Project Roadmap
-
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
-
 ---
 
-## 🔰 Contributing
+## 📌 Roadmap do Projeto
 
-- **💬 [Join the Discussions](https://github.com/cauasantoslt/telecomX2/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/cauasantoslt/telecomX2/issues)**: Submit bugs found or log feature requests for the `telecomX2` project.
-- **💡 [Submit Pull Requests](https://github.com/cauasantoslt/telecomX2/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- [x] **`Tarefa 1`**: <strike>Implementar funcionalidade um.</strike>
+- [ ] **`Tarefa 2`**: Implementar funcionalidade dois.
+- [ ] **`Tarefa 3`**: Implementar funcionalidade três.
+
+---
+
+## 🔰 Contribuindo
+
+- **💬 [Participe das Discussões](https://github.com/cauasantoslt/telecomX2/discussions)**: Compartilhe suas ideias, dê feedback ou tire dúvidas.
+- **🐛 [Reporte Problemas](https://github.com/cauasantoslt/telecomX2/issues)**: Envie bugs encontrados ou registre solicitações de funcionalidades para o projeto `telecomX2`.
+- **💡 [Envie Pull Requests](https://github.com/cauasantoslt/telecomX2/blob/main/CONTRIBUTING.md)**: Revise PRs abertos e envie seus próprios PRs.
 
 <details closed>
-<summary>Contributing Guidelines</summary>
+<summary>Diretrizes de Contribuição</summary>
 
-1. **Fork the Repository**: Start by forking the project repository to your github account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
+1. **Faça um Fork do Repositório**: Comece fazendo um fork do repositório para sua conta do github.
+2. **Clone Localmente**: Clone o repositório forkado para sua máquina local usando um cliente git.
    ```sh
    git clone https://github.com/cauasantoslt/telecomX2
    ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+3. **Crie uma Nova Branch**: Sempre trabalhe em uma nova branch, dando um nome descritivo.
    ```sh
-   git checkout -b new-feature-x
+   git checkout -b nova-funcionalidade-x
    ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
+4. **Faça Suas Alterações**: Desenvolva e teste suas alterações localmente.
+5. **Faça o Commit das Alterações**: Faça commits com mensagens claras descrevendo suas atualizações.
    ```sh
-   git commit -m 'Implemented new feature x.'
+   git commit -m 'Implementada nova funcionalidade x.'
    ```
-6. **Push to github**: Push the changes to your forked repository.
+6. **Envie para o github**: Envie as alterações para seu repositório forkado.
    ```sh
-   git push origin new-feature-x
+   git push origin nova-funcionalidade-x
    ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
+7. **Envie um Pull Request**: Crie um PR para o repositório original do projeto. Descreva claramente as alterações e suas motivações.
+8. **Revisão**: Após a revisão e aprovação do seu PR, ele será mesclado à branch principal. Parabéns pela contribuição!
 </details>
 
 <details closed>
-<summary>Contributor Graph</summary>
+<summary>Gráfico de Contribuidores</summary>
 <br>
 <p align="left">
    <a href="https://github.com{/cauasantoslt/telecomX2/}graphs/contributors">
@@ -237,14 +241,18 @@ Run the test suite using the following command:
 
 ---
 
-## 🎗 License
+## 🎗 Licença
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+Este projeto é distribuído sob uma licença didática e sem fins lucrativos, desenvolvida por [Cauã Santos](https://github.com/cauasantoslt). O objetivo é promover o aprendizado, compartilhamento de conhecimento e uso acadêmico. Qualquer uso comercial é proibido.
 
----
-
-## 🙌 Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
+Para mais informações, acesse o [GitHub de Cauã Santos](https://github.com/cauasantoslt).
 
 ---
+
+## 🙌 Agradecimentos
+
+Agradeço primeiramente a Deus, à minha família e à minha namorada por todo o apoio, carinho e incentivo durante essa jornada.
+
+> "Seja você quem for, seja qual for a posição social que você tenha na vida, a mais alta ou a mais baixa, tenha sempre como meta muita força, muita determinação e sempre faça tudo com muito amor e com muita fé em Deus, que um dia você chega lá. De alguma maneira você chega lá."
+>
+> Ayrton Senna.
