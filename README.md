@@ -7,6 +7,8 @@
     <img src="https://placehold.co/150x150/2d0553/00ffff?text=TelecomX" align="center" width="30%">
 </p>
 <p align="center"><h1 align="center">TELECOMX2</h1></p>
+<h3 align="center"><a href="https://telecomx2.streamlit.app/"> Acesse o nosso Site</a> 
+</h3>
 <p align="center">
     <em>Libere insights, impulsione inovação, preveja sucesso!</em>
 </p>
